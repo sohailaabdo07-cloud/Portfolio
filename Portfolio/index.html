@@ -1,317 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sohaila Abdo | Portfolio</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sohaila Abdo portfolio website" />
+  <title>Sohaila Abdo | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
-<body class="bg-light">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="#home">
-            <span class="text-info">Sohaila Abdo</span> Portfolio
-        </a>
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-            <div class="navbar-nav ms-auto">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-        </div>
+      <a class="navbar-brand fw-bold" href="#home">
+        <span class="brand-accent">Sohaila</span> Abdo
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-</nav>
-<section id="home" class="bg-dark text-white py-5">
-    <div class="container py-5">
-        <div class="row align-items-center">
-            <div class="col-md-7 text-center text-md-start">
-                <span class="badge bg-info text-dark mb-3 p-2">
-                    Welcome To My Portfolio
-                </span>
-                <h1 class="display-4 fw-bold">
-                    Hi, I'm <span class="text-info">Sohaila Abdo</span>
-                </h1>
-                <h2 class="h3 text-info mb-3">
-                    Web Developer
-                </h2>
-                <p class="lead text-white-50">
-                    I build modern, responsive and user-friendly websites
-                    using HTML, CSS, Bootstrap and JavaScript.
-                </p>
-                <a href="#projects" class="btn btn-info btn-lg me-2 mb-2">
-                    <i class="bi bi-briefcase me-1"></i>
-                    My Projects
-                </a>
-                <a href="#contact" class="btn btn-outline-light btn-lg mb-2">
-                    Contact Me
-                </a>
-            </div>
-            <div class="col-md-5 text-center mt-4 mt-md-0">
-                <img src="s.png"
-                     alt="Sohaila Abdo Profile"
-                     width="230"
-                     height="230"
-                     class="rounded-circle border border-4 border-info shadow">
-                <div class="mt-3">
-                    <span class="badge bg-secondary p-2">
-                        <i class="bi bi-code-slash me-1"></i>
-                        Creative Developer
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="about" class="py-5">
-    <div class="container py-3">
-        <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">
-                About <span class="text-primary">Me</span>
-            </h2>
-            <p class="text-secondary">
-                Get to know me better
-            </p>
-        </div>
-        <div class="row g-4 align-items-stretch">
-            <div class="col-md-6">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-4">
-                        <div class="text-primary display-6 mb-3">
-                            <i class="bi bi-person-workspace"></i>
-                        </div>
-                        <h4 class="fw-bold">Who Am I?</h4>
-                        <p class="text-secondary">
-                            I am a passionate web developer who enjoys
-                            learning new technologies and creating
-                            useful digital experiences.
-                        </p>
-                        <p class="text-secondary">
-                            My goal is to build clean, responsive
-                            and easy-to-use websites.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-header bg-primary text-white p-3">
-                        <h5 class="mb-0">
-                            <i class="bi bi-person-lines-fill me-2"></i>
-                            Personal Information
-                        </h5>
-                    </div>
-                    <div class="card-body">
-                        <p>
-                            <i class="bi bi-person-fill text-primary me-2"></i>
-                            <strong>Name:</strong> Sohaila Abdo 
-                        </p>
-                        <p>
-                            <i class="bi bi-envelope-fill text-primary me-2"></i>
-                            <strong>Email:</strong> Sohailaabdo@gmail.com
-                        </p>
-                        <p>
-                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
-                            <strong>Location:</strong> Egypt
-                        </p>
-                        <p class="mb-0">
-                            <i class="bi bi-code-slash text-primary me-2"></i>
-                            <strong>Role:</strong> Web Developer
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+  </nav>
 
-<section id="skills" class="bg-white py-5">
-    <div class="container py-3">
-        <div class="text-center mb-5">
-        <h2 class="fw-bold">
-                My <span class="text-primary">Skills</span>
-            </h2>
-            <p class="text-secondary">
-                Technologies I use to build websites
-            </p>
+  <header id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100 g-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <span class="badge badge-custom mb-3">Welcome To My Portfolio</span>
+          <h1 class="display-4 fw-bold mb-3">Hi, I'm <span class="brand-accent">Sohaila Abdo</span></h1>
+          <h2 class="h3 text-primary mb-3">Web Developer</h2>
+          <p class="lead text-secondary mb-4">
+            I build modern, responsive and user-friendly websites using HTML, CSS, Bootstrap and JavaScript.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+            <a href="#projects" class="btn btn-primary btn-lg px-4">
+              <i class="bi bi-briefcase me-2"></i>My Projects
+            </a>
+            <a href="#contact" class="btn btn-outline-primary btn-lg px-4">
+              Contact Me
+            </a>
+          </div>
         </div>
-        <div class="row g-4 text-center">
-            <div class="col-6 col-md-3">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-4">
-                        <i class="bi bi-filetype-html display-4 text-danger"></i>
-                        <h5 class="fw-bold mt-3">HTML</h5>
-                        <span class="badge bg-danger">Structure</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-4">
-                        <i class="bi bi-filetype-css display-4 text-primary"></i>
-                        <h5 class="fw-bold mt-3">CSS</h5>
-                        <span class="badge bg-primary">Styling</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-4">
-                    <i class="bi bi-bootstrap-fill display-4 text-info"></i>
-                        <h5 class="fw-bold mt-3">Bootstrap</h5>
-                        <span class="badge bg-info text-dark">Responsive</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="card border-0 shadow-sm h-100">
-                    <div class="card-body p-4">
-                        <i class="bi bi-filetype-js display-4 text-warning"></i>
-                        <h5 class="fw-bold mt-3">JavaScript</h5>
-                        <span class="badge bg-warning text-dark">Interactive</span>
-                    </div>
-                </div>
-            </div>
-       </div>
+        <div class="col-lg-5 text-center">
+          <div class="profile-card">
+            <img src="s.png" alt="Sohaila Abdo profile" />
+          </div>
+          <div class="mt-3">
+            <span class="badge badge-soft">
+              <i class="bi bi-code-slash me-1"></i>Creative Developer
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </header>
 
-<section id="projects" class="py-5">
-    <div class="container py-3">
+  <main>
+    <section id="about" class="section-block">
+      <div class="container py-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">
-                My <span class="text-primary">Projects</span>
-            </h2>
-            <p class="text-secondary">
-                Some projects I have worked on
-            </p>
+          <h2 class="section-title">About <span class="brand-accent">Me</span></h2>
+          <p class="text-secondary mb-0">Get to know me better</p>
         </div>
+
         <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card border-0 shadow-sm h-100">
-                    <img src="https://placehold.co/600x400/0d6efd/ffffff?text=Student+System"
-                         class="card-img-top"
-                         alt="Student Management System">
-                    <div class="card-body p-4">
-                        <span class="badge bg-primary mb-2">Management</span>
-                        <h5 class="fw-bold">Student System</h5>
-                        <p class="text-secondary">
-                            A simple system for managing student records.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary">
-                            View Project
-                            <i class="bi bi-arrow-right ms-1"></i>
-                        </a>
-                    </div>
-                </div>
+          <div class="col-lg-6">
+            <div class="info-card h-100">
+              <div class="icon-box"><i class="bi bi-person-workspace"></i></div>
+              <h3>Who Am I?</h3>
+              <p>I am a passionate web developer who enjoys learning new technologies and creating useful digital experiences.</p>
+              <p>My goal is to build clean, responsive and easy-to-use websites.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card border-0 shadow-sm h-100">
-                    <img src="https://placehold.co/600x400/212529/ffffff?text=My+Website"
-                         class="card-img-top"
-                         alt="Personal Website">
-                    <div class="card-body p-4">
-                        <span class="badge bg-dark mb-2">Portfolio</span>
-                        <h5 class="fw-bold">Personal Website</h5>
-                        <p class="text-secondary">
-                            A personal website to introduce skills and work.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary">
-                            View Project
-                      <i class="bi bi-arrow-right ms-1"></i>
-                    </a>
-                 </div>
-             </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-0 shadow-sm h-100">
-                    <img src="https://placehold.co/600x400/198754/ffffff?text=Online+Store"
-                         class="card-img-top"
-                         alt="Online Store">
-                    <div class="card-body p-4">
-                        <span class="badge bg-success mb-2">E-Commerce</span>
-                        <h5 class="fw-bold">Online Store</h5>
-                        <p class="text-secondary">
-                            A simple online store with product cards.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary">
-                            View Project
-                            <i class="bi bi-arrow-right ms-1"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-   </div>
-</section>
+          </div>
 
-<section id="contact" class="bg-dark text-white py-5">
-    <div class="container py-3">
+          <div class="col-lg-6">
+            <div class="info-card h-100 p-0 overflow-hidden">
+              <div class="card-header-custom">
+                <h4 class="mb-0"><i class="bi bi-person-lines-fill me-2"></i>Personal Information</h4>
+              </div>
+              <div class="card-body p-4">
+                <p><i class="bi bi-person-fill text-primary me-2"></i><strong>Name:</strong> Sohaila Abdo</p>
+                <p><i class="bi bi-envelope-fill text-primary me-2"></i><strong>Email:</strong> Sohailaabdo@gmail.com</p>
+                <p><i class="bi bi-geo-alt-fill text-primary me-2"></i><strong>Location:</strong> Egypt</p>
+                <p class="mb-0"><i class="bi bi-code-slash text-primary me-2"></i><strong>Role:</strong> Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-block bg-white">
+      <div class="container py-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">
-                Contact <span class="text-info">Me</span>
-            </h2>
-            <p class="text-white-50">
-                Have a project in mind? Let's talk.
-            </p>
+          <h2 class="section-title">My <span class="brand-accent">Skills</span></h2>
+          <p class="text-secondary mb-0">Technologies I use to build websites</p>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-md-7 col-lg-6">
-                <div class="card border-0 shadow">
-                    <div class="card-body p-4">
 
-                        <form>
-                            <label class="form-label text-dark">
-                                Your Name
-                            </label>
-                            <input type="text"
-                                   class="form-control mb-3"
-                                   placeholder="Enter your name">
-                           <label class="form-label text-dark">
-                                Your Email
-                            </label>
-                          <input type="email"
-                                   class="form-control mb-3"
-                                   placeholder="name@example.com">
-                            <label class="form-label text-dark">
-                                Your Message
-                            </label>
-                            <textarea class="form-control mb-3"
-                                      rows="4"
-                                      placeholder="Write your message"></textarea>
-                            <button type="button" class="btn btn-primary w-100">
-                                <i class="bi bi-send me-2"></i>
-                                Send Message
-                            </button>
-                        </form>
-                    </div>
-                </div>
+        <div class="row g-4 text-center">
+          <div class="col-6 col-md-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-filetype-html"></i>
+              <h5>HTML</h5>
+              <span class="badge skill-badge html-badge">Structure</span>
             </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-filetype-css"></i>
+              <h5>CSS</h5>
+              <span class="badge skill-badge css-badge">Styling</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-bootstrap-fill"></i>
+              <h5>Bootstrap</h5>
+              <span class="badge skill-badge bootstrap-badge">Responsive</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card h-100">
+              <i class="bi bi-filetype-js"></i>
+              <h5>JavaScript</h5>
+              <span class="badge skill-badge js-badge">Interactive</span>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
+    <section id="projects" class="section-block">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="section-title">My <span class="brand-accent">Projects</span></h2>
+          <p class="text-secondary mb-0">Some projects I have worked on</p>
+        </div>
 
-<footer class="bg-black text-white text-center py-4">
-    <div class="container">
-        <h5 class="fw-bold">
-            Sohaila Abdo Portfolio
-        </h5>
-        <p class="text-white-50 mb-2">
-            Building ideas into websites.
-        </p>
-        <p class="mb-0">
-            &copy; 2026 Sohaila Abd. All Rights Reserved.
-        </p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="project-card h-100">
+              <img src="https://placehold.co/600x400/0d6efd/ffffff?text=Student+System" alt="Student Management System" />
+              <div class="card-body p-4">
+                <span class="badge project-tag tag-blue mb-3">Management</span>
+                <h4>Student System</h4>
+                <p>A simple system for managing student records.</p>
+                <a href="#" class="btn btn-outline-primary">View Project <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="project-card h-100">
+              <img src="https://placehold.co/600x400/212529/ffffff?text=My+Website" alt="Personal Website" />
+              <div class="card-body p-4">
+                <span class="badge project-tag tag-dark mb-3">Portfolio</span>
+                <h4>Personal Website</h4>
+                <p>A personal website to introduce skills and work.</p>
+                <a href="#" class="btn btn-outline-primary">View Project <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="project-card h-100">
+              <img src="https://placehold.co/600x400/198754/ffffff?text=Online+Store" alt="Online Store" />
+              <div class="card-body p-4">
+                <span class="badge project-tag tag-green mb-3">E-Commerce</span>
+                <h4>Online Store</h4>
+                <p>A simple online store with product cards.</p>
+                <a href="#" class="btn btn-outline-primary">View Project <i class="bi bi-arrow-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-block contact-section">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="section-title text-white">Contact <span class="brand-accent">Me</span></h2>
+          <p class="text-light-emphasis mb-0">Have a project in mind? Let's talk.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="contact-card">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Enter your name" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="name@example.com" />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea id="message" class="form-control" rows="4" placeholder="Write your message"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary w-100 btn-lg">
+                  <i class="bi bi-send me-2"></i>Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <h5 class="fw-bold mb-2">Sohaila Abdo Portfolio</h5>
+      <p class="mb-2 text-light-emphasis">Building ideas into websites.</p>
+      <p class="mb-0">&copy; <span id="year"></span> Sohaila Abd. All Rights Reserved.</p>
     </div>
-</footer>
-<script src="js/bootstrap.js"></script>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
