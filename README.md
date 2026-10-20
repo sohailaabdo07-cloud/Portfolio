@@ -1,18 +1,18 @@
 # Portfolio
 
-This is a clean and organized single-page portfolio website for Sohaila Abdo.
+A modern and professional single-page portfolio for Sohaila Abdo.
 
 ## Structure
 
-- `Portfolio/index.html` — main portfolio page
-- `Portfolio/styles.css` — project styling
-- `Portfolio/script.js` — small JavaScript helper
+- `Portfolio/index.html` — main page layout and sections
+- `Portfolio/styles.css` — styling, animations, modern design
+- `Portfolio/script.js` — reveal-on-scroll animation and footer year
 - `Portfolio/s.png` — profile image
 
-## Run locally
+## Preview
 
-Open `Portfolio/index.html` directly in the browser, or serve the folder with a local web server.
+Open `Portfolio/index.html` in the browser to view the portfolio.
 
 ## Notes
 
-The layout was cleaned up and reorganized for readability and easier maintenance.
+The project has been organized into a cleaner and more professional structure with animation and modern design improvements.
